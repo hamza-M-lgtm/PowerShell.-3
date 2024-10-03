@@ -1,0 +1,11 @@
+PS C:\Windows\system32> Get-History
+
+  Id CommandLine                                                                     
+  -- -----------                                                                     
+   1 Start-Process calc.exe...                                                       
+   2 Get-Process                                                                     
+   3 $AllProcess | Where-Object {$_.Name -like "*calc*"}                             
+
+
+
+PS C:\Windows\system32> 
